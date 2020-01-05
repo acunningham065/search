@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="324f063e-d601-47b2-b642-dd77f3dbf161" name="Default Changelist" comment="" />
+    <list default="true" id="324f063e-d601-47b2-b642-dd77f3dbf161" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/search.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +19,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="40176468 &lt;acunningham43@qub.ac.uk&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VyoRGGwS13pj79C6d23rLkU0dR" />
@@ -28,6 +36,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -102,11 +111,25 @@
       <updated>1578234685583</updated>
       <workItem from="1578234688205" duration="4612000" />
       <workItem from="1578244928270" duration="3379000" />
+      <workItem from="1578248335871" duration="2500000" />
     </task>
+    <task id="LOCAL-00001" summary="Add a gitignore to ignore for the venv">
+      <created>1578249026676</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578249026676</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Add a gitignore to ignore for the venv" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a gitignore to ignore for the venv" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1498" y="498" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578245160074">
@@ -117,6 +140,10 @@
       <screen x="1080" y="285" width="1920" height="1080" />
     </state>
     <state x="1812" y="564" width="674" height="595" key="#xdebugger.evaluate/1080.285.1920.1080/0.317.1080.1603@1080.285.1920.1080" timestamp="1578245116932" />
+    <state x="1475" y="434" width="1120" height="820" key="CommitChangelistDialog2" timestamp="1578262724491">
+      <screen x="1080" y="285" width="1920" height="1080" />
+    </state>
+    <state x="1475" y="434" width="1120" height="820" key="CommitChangelistDialog2/1080.285.1920.1080/0.317.1080.1603@1080.285.1920.1080" timestamp="1578262724491" />
     <state x="1777" y="601" width="515" height="484" key="EnvironmentVariablesDialog" timestamp="1578245136917">
       <screen x="1080" y="285" width="1920" height="1080" />
     </state>
@@ -161,6 +188,10 @@
       <screen x="1080" y="285" width="1920" height="1080" />
     </state>
     <state x="1521" y="475" width="1037" height="737" key="SettingsEditor/1080.285.1920.1080/0.317.1080.1603@1080.285.1920.1080" timestamp="1578246801439" />
+    <state x="1635" y="576" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1578249028907">
+      <screen x="1080" y="285" width="1920" height="1080" />
+    </state>
+    <state x="1635" y="576" width="800" height="535" key="Vcs.Push.Dialog.v2/1080.285.1920.1080/0.317.1080.1603@1080.285.1920.1080" timestamp="1578249028907" />
     <state x="1180" y="416" width="1720" height="849" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578245327704">
       <screen x="1080" y="285" width="1920" height="1080" />
     </state>

@@ -20,7 +20,7 @@ db_connection = mysql.connector.connect(
 def index():
     if request.method == 'GET' and request.args.get('keywords') is not None:
         return search_results(request.args.get('keywords'))
-    return render_template("templates/index.html")
+    return render_template("index.html")
 
 
 def search_results(keywords):
@@ -38,7 +38,7 @@ def search_results(keywords):
         results = cursor.fetchmany(size=50)
 
         if not results:
-            return render_template("templates/index.html", results="No Results Found")
+            return render_template("index.html", results=["No Results Found"])
         else:
             # display results
             results = list(map(lambda result: result[0], results))
