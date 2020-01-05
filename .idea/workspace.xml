@@ -15,6 +15,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VyoRGGwS13pj79C6d23rLkU0dR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,6 +27,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -36,80 +40,12 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../search/templates" />
+      <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/templates" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DjangoTestsConfigurationType">
-      <module name="search" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <module name="search" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <module name="search" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="search" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="advert_service" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="search" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,65 +70,6 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Python.FlaskServer">
-      <module name="search" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="search" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="search" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <module name="search" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -224,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578234685583</updated>
       <workItem from="1578234688205" duration="4612000" />
-      <workItem from="1578244928270" duration="3091000" />
+      <workItem from="1578244928270" duration="3379000" />
     </task>
     <servers />
   </component>
@@ -248,38 +125,38 @@
       <screen x="1080" y="285" width="1920" height="1080" />
     </state>
     <state x="1817" y="587" width="424" height="521" key="FileChooserDialogImpl/1080.285.1920.1080/0.317.1080.1603@1080.285.1920.1080" timestamp="1578247556838" />
-    <state width="1874" height="274" key="GridCell.Tab.0.bottom" timestamp="1578245270077">
+    <state width="1874" height="274" key="GridCell.Tab.0.bottom" timestamp="1578248306958">
       <screen x="1080" y="285" width="1920" height="1080" />
     </state>
-    <state width="1874" height="274" key="GridCell.Tab.0.bottom/1080.285.1920.1080/0.317.1080.1603@1080.285.1920.1080" timestamp="1578245270077" />
-    <state width="1874" height="274" key="GridCell.Tab.0.center" timestamp="1578245270077">
+    <state width="1874" height="274" key="GridCell.Tab.0.bottom/1080.285.1920.1080/0.317.1080.1603@1080.285.1920.1080" timestamp="1578248306958" />
+    <state width="1874" height="274" key="GridCell.Tab.0.center" timestamp="1578248306958">
       <screen x="1080" y="285" width="1920" height="1080" />
     </state>
-    <state width="1874" height="274" key="GridCell.Tab.0.center/1080.285.1920.1080/0.317.1080.1603@1080.285.1920.1080" timestamp="1578245270077" />
-    <state width="1874" height="274" key="GridCell.Tab.0.left" timestamp="1578245270077">
+    <state width="1874" height="274" key="GridCell.Tab.0.center/1080.285.1920.1080/0.317.1080.1603@1080.285.1920.1080" timestamp="1578248306958" />
+    <state width="1874" height="274" key="GridCell.Tab.0.left" timestamp="1578248306957">
       <screen x="1080" y="285" width="1920" height="1080" />
     </state>
-    <state width="1874" height="274" key="GridCell.Tab.0.left/1080.285.1920.1080/0.317.1080.1603@1080.285.1920.1080" timestamp="1578245270077" />
-    <state width="1874" height="274" key="GridCell.Tab.0.right" timestamp="1578245270077">
+    <state width="1874" height="274" key="GridCell.Tab.0.left/1080.285.1920.1080/0.317.1080.1603@1080.285.1920.1080" timestamp="1578248306957" />
+    <state width="1874" height="274" key="GridCell.Tab.0.right" timestamp="1578248306958">
       <screen x="1080" y="285" width="1920" height="1080" />
     </state>
-    <state width="1874" height="274" key="GridCell.Tab.0.right/1080.285.1920.1080/0.317.1080.1603@1080.285.1920.1080" timestamp="1578245270077" />
-    <state width="1874" height="338" key="GridCell.Tab.1.bottom" timestamp="1578245139837">
+    <state width="1874" height="274" key="GridCell.Tab.0.right/1080.285.1920.1080/0.317.1080.1603@1080.285.1920.1080" timestamp="1578248306958" />
+    <state width="1874" height="338" key="GridCell.Tab.1.bottom" timestamp="1578248306956">
       <screen x="1080" y="285" width="1920" height="1080" />
     </state>
-    <state width="1874" height="338" key="GridCell.Tab.1.bottom/1080.285.1920.1080/0.317.1080.1603@1080.285.1920.1080" timestamp="1578245139837" />
-    <state width="1874" height="338" key="GridCell.Tab.1.center" timestamp="1578245139837">
+    <state width="1874" height="338" key="GridCell.Tab.1.bottom/1080.285.1920.1080/0.317.1080.1603@1080.285.1920.1080" timestamp="1578248306956" />
+    <state width="1874" height="338" key="GridCell.Tab.1.center" timestamp="1578248306956">
       <screen x="1080" y="285" width="1920" height="1080" />
     </state>
-    <state width="1874" height="338" key="GridCell.Tab.1.center/1080.285.1920.1080/0.317.1080.1603@1080.285.1920.1080" timestamp="1578245139837" />
-    <state width="1874" height="338" key="GridCell.Tab.1.left" timestamp="1578245139837">
+    <state width="1874" height="338" key="GridCell.Tab.1.center/1080.285.1920.1080/0.317.1080.1603@1080.285.1920.1080" timestamp="1578248306956" />
+    <state width="1874" height="338" key="GridCell.Tab.1.left" timestamp="1578248306956">
       <screen x="1080" y="285" width="1920" height="1080" />
     </state>
-    <state width="1874" height="338" key="GridCell.Tab.1.left/1080.285.1920.1080/0.317.1080.1603@1080.285.1920.1080" timestamp="1578245139837" />
-    <state width="1874" height="338" key="GridCell.Tab.1.right" timestamp="1578245139837">
+    <state width="1874" height="338" key="GridCell.Tab.1.left/1080.285.1920.1080/0.317.1080.1603@1080.285.1920.1080" timestamp="1578248306956" />
+    <state width="1874" height="338" key="GridCell.Tab.1.right" timestamp="1578248306956">
       <screen x="1080" y="285" width="1920" height="1080" />
     </state>
-    <state width="1874" height="338" key="GridCell.Tab.1.right/1080.285.1920.1080/0.317.1080.1603@1080.285.1920.1080" timestamp="1578245139837" />
+    <state width="1874" height="338" key="GridCell.Tab.1.right/1080.285.1920.1080/0.317.1080.1603@1080.285.1920.1080" timestamp="1578248306956" />
     <state x="1521" y="475" width="1037" height="737" key="SettingsEditor" timestamp="1578246801439">
       <screen x="1080" y="285" width="1920" height="1080" />
     </state>
