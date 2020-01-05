@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QSE</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1>QSE</h1>
+        <form action="/">
+            <input name="keywords" type="text" placeholder="keywords">
+            <button type="submit">Submit</button>
+        </form>
+        <br>
+        <h1>Results</h1>
+        <ul>
+            {% for result in results %}
+            <li><a href={{result}}>{{result}}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
