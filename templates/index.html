@@ -6,18 +6,30 @@
 </head>
 <body>
     <div style="text-align: center;">
-        <h1>QSE</h1>
+        <h1>Queen's Search Engine</h1>
         <form action="/">
             <input name="keywords" type="text" placeholder="keywords">
             <button type="submit">Submit</button>
         </form>
         <br>
         <h1>Results</h1>
-        <ul>
-            {% for result in results %}
-            <li><a href={{result}}>{{result}}</a></li>
-            {% endfor %}
-        </ul>
+        <div style="display: flex;">
+            <div style="width: 75%">
+                <ul>
+                    {% for result in results %}
+                    <li><a href={{result}}>{{result}}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div style="width: 25%">
+                <h2>Adverts</h2>
+                <ul>
+                    {% for advert in adverts %}
+                    <li><a href={{advert}}>{{advert}}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
     </div>
 </body>
 </html>
