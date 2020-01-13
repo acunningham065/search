@@ -4,16 +4,12 @@ import os
 import string
 import requests
 import json
+import sys
 
 app = Flask(__name__, template_folder="templates/")
 
-ADVERT_SERVICE_URL = os.environ.get("ADVERT_SERVICE_URL")
-
-db_connection = mysql.connector.connect(
-    host=os.environ.get("MYSQL_DB_HOST"),
-    user=os.environ.get("MYSQL_DB_USER"),
-    password=os.environ.get("MYSQL_DB_PASSWORD"),
-    database=os.environ.get("MYSQL_DB_NAME"))
+ADVERT_SERVICE_URL = None
+db_connection = None
 
 
 @app.route("/")
@@ -50,5 +46,16 @@ def search_results(keywords):
         print("Error: {}".format(err))
         return "Error: {}".format(err)
 
+
 if __name__ == '__main__':
-    app.run(port=5025)
+    try:
+        db_connection = mysql.connector.connect(
+            host=sys.argv[1],
+            user=sys.argv[2],
+            password=sys.argv[3],
+            database=sys.argv[4])
+    except mysql.connector.Error as err:
+        print("Error: {}".format(err))
+
+    ADVERT_SERVICE_URL = sys.argv[5]
+    app.run(host="0.0.0.0", port=5025)
