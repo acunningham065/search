@@ -1,6 +1,5 @@
 from flask import Flask, request, render_template
 import mysql.connector
-import os
 import string
 import requests
 import json
@@ -38,9 +37,9 @@ def search_results(keywords):
             # display results
             results = list(map(lambda result: result[0], results))
             try:
-                adverts = json.loads(requests.post(url=ADVERT_SERVICE_URL, json=json.dumps(individual_keywords)).content)
+                adverts = json.loads(requests.post(url=ADVERT_SERVICE_URL + "/?" + keywords).content)
                 return render_template("index.html", results=results, adverts=adverts if adverts is not None else ["No adverts found"])
-            except requests.exceptions.ConnectionError:
+            except requests.exceptions.InvalidSchema or requests.exceptions.ConnectionError:
                 return render_template("index.html", results=results, adverts=["Advert service could not be reached"])
     except mysql.connector.Error as err:
         print("Error: {}".format(err))
