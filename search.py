@@ -57,5 +57,6 @@ if __name__ == '__main__':
     except mysql.connector.Error as err:
         print("Error: {}".format(err))
 
-    ADVERT_SERVICE_URL = sys.argv[5]
+    if len(sys.argv) == 6:
+        ADVERT_SERVICE_URL = sys.argv[5]
     app.run(host="0.0.0.0", port=5025)
